@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(29deg, rgba(0,212,255,1) 0%, rgba(41,183,237,1) 30%, rgba(2,0,36,1) 100%);
+}
+
+.container{
+    position: absolute;
+    left: 30%;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cityName {
+    font-size: 20px;
+    width: 350px;
+    height: 35px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 18px;
+}
+
+img{
+    width: 75%;
+    height: 75%;
+    object-fit: contain;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.weather{
+    text-align: center;
+    display: none;
+}
+
+.weather-icon{
+    margin-top: 30px;
+    width: 170px;
+}
+
+
+h1.temp{
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+h2.city{
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,.wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+
